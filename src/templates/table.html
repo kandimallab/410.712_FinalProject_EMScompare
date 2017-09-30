@@ -1,0 +1,36 @@
+
+<b>[{{ imp }}] with [score {{ score }}] has {{ num }} results</b>
+<br/><br/>
+<table>
+  <tr>
+    <th>id</th>
+    <th>dispatch_date</th>		
+    <th>admit_date</th>
+    <th>impression</th>
+    <th>reason</th>
+    <th>diag1code</th>
+    <th>diag1</th>
+    <th>diag2code</th>
+    <th>diag2</th>
+    <th>diag3code</th>
+    <th>diag3</th>
+    <th>score</th>
+  </tr>
+  {% for r in rows %}
+  <tr>
+    <td>{{ r[0] }}</td>
+    <td>{{ r[1] }}</td>	
+    <td>{{ r[2] }}</td>
+    <td>{{ r[3] }}</td>
+    <td>{{ r[4] }}</td>
+    <td>{{ r[5] }}</td>
+    <td>{{ r[6] }}</td>
+    <td>{{ r[7] }}</td>
+    <td>{{ r[8] }}</td> 
+    <td>{{ r[9] }}</td>
+    <td>{{ r[10] }}</td>
+    <td>{{ r[11] }}</td>
+  </tr>
+  {% endfor %}
+</table>
+

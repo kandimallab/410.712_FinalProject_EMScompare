@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EMS Responder Data</title>
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/search.js"></script>
+    <link rel="stylesheet" href="css/table.css">
+  </head>
+  
+  <body>
+    <h1>EMS Responder Data</h1>
+    <p>
+    <form id="form_search" action="" >
+      <p>Input query terms:</p>
+      
+      <p>
+      Score (how well EMT's impression fits doctor's diagnosis): 
+      <select name="score" id="score">
+        <option value="all">all</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="3">3</option>
+        <option value="5">5</option>
+      </select>
+      </p>
+      
+      <p>
+      Impression (EMT's impression compared to doctor diagnosis): 
+      <select name="impression" id="impression">
+        <option value="all">all</option>
+        <option value="Airway Obstruction">Airway Obstruction</option>
+        <option value="Allergic Reaction">Allergic Reaction</option>
+        <option value="Amputation">Amputation</option>
+        <option value="Behavioral Disorder">Behavioral Disorder</option>
+        <option value="Bleeding / Hemorrhage">Bleeding / Hemorrhage</option>
+        <option value="Burns">Burns</option></option>
+        <option value="Cardiac Arrest">Cardiac Arrest</option>
+        <option value="Cardiac Related (Potential)">Cardiac Related (Potential)</option>
+        <option value="Diabetic Related (Potential)">Diabetic Related (Potential)</option>
+        <option value="Environmental - Cold">Environmental - Cold</option>
+        <option value="Environmental - Heat">Environmental - Heat</option>
+        <option value="Fracture / Dislocation">Fracture / Dislocation</option>
+        <option value="Gastro-Intestinal Distress">Gastro-Intestinal Distress</option>
+        <option value="General Illness / Malaise">General Illness/Malaise</option>
+        <option value="Hazardous Materials">Hazardous Materials</option>
+        <option value="Head Injury">Head Injury</option>
+        <option value="Major Trauma">Major Trauma</option>
+        <option value="OB / GYN">OB / GYN</option>
+        <option value="Obvious Death">Obvious Death</option>
+        <option value="Other">Other</option>
+        <option value="Pain">Pain</option>
+        <option value="Poisoning (Accidental)">Poisoning (Accidental)</option>
+        <option value="Respiratory Arrest">Respiratory Arrest</option>
+        <option value="Respiratory Distress">Respiratory Distress</option>
+        <option value="Seizure">Seizure</option>
+        <option value="Shock">Shock</option>
+        <option value="Soft Tissue Injury">Soft Tissue Injury</option>
+        <option value="Spinal Injury">Spinal Injury</option>
+        <option value="Stroke / CVA">Stroke / CVA</option>
+        <option value="Substance Abuse (Potential)">Substance Abuse (Potential)</option>
+        <option value="Syncope">Syncope</option>
+        <option value="Trauma - Blunt">Trauma - Blunt</option>
+        <option value="Trauma - Penetrating">Trauma - Penetrating</option>
+        <option value="Unconscious / Unresponsive">Unconscious / Unresponsive</option>
+      </select>
+      </p>
+      
+      <input type="submit" name="submit" value="Search" id="submit"/>
+    </form>
+    </p>
+    
+    <div id="results">
+    </div>
+    
+  </body>
+</html>
