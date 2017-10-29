@@ -42,7 +42,7 @@ The EMS patient raw data file must be in the following format:
 The hospital patient raw data file must be in the following format:
 
 &nbsp;&nbsp;`"Name",DateOfBirth,AdmitDate,"Reason For Visit","Diagnosis1 Code", "Diagnosis1",
-"Diagnosis2 Code","Diagnosis2","Diagnosis3 Code","Diagnosis3"`
+&nbsp;&nbsp;"Diagnosis2 Code","Diagnosis2","Diagnosis3 Code","Diagnosis3"`
 
 
 **USAGE**
@@ -54,33 +54,27 @@ server as source files
 
 2. To de-identify EMS patients and create patient-event table, un-comment lines
 19, 23-25, and 30-31 of the insert.py script and, on the server, run command:
-
-&nbsp;&nbsp;`python insert.py`
+   `python insert.py`
 
 3. To de-identify hospital patients and create patient-event table, un-comment
 lines 20, 23-25, and 33-35 of the insert.py script and, on the server, run
 command:
-
-&nbsp;&nbsp;`python insert.py`
+   `python insert.py`
 
 4. To create crosswalk table, un-comment lines 18 and 27-28 of the insert.py
 script and, on the server, run command:
-
-&nbsp;&nbsp;`python insert.py`
+   `python insert.py`
 
 5. To run the data through the program and upload to database
 
-  1. Log into the MySQL server:
-
-&nbsp;&nbsp;&nbsp;&nbsp;`mysql -u USERNAME -h localhost -p`
+   1. Log into the MySQL server:
+      `mysql -u USERNAME -h localhost -p`
 
   2. Use the bkandim1 database:
-
-&nbsp;&nbsp;&nbsp;&nbsp;`use bkandim1;`
+     `use bkandim1;`
   
   3. Direct the source to the views.sql script:
-
-&nbsp;&nbsp;&nbsp;&nbsp;`source /FULLPATH/views.sql;`
+     `source /FULLPATH/views.sql;`
     
     
 **USER USE:**
