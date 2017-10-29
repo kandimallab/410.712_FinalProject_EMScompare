@@ -77,10 +77,11 @@ script and, on the server, run command:
 **USER USE:**
 
 6. View and query the results at:
-http://bfx.eng.jhu.edu/bkandim1/410.712_Advanced_Practical_Computer_Concepts_for_Bioinformatics/final/  
+(http://bfx.eng.jhu.edu/bkandim1/410.712_Advanced_Practical_Computer_Concepts_for_Bioinformatics/final/)  
   
   
-**FILE NOTES:**
+**FILE NOTES:**  
+
 EMS Patients.txt - raw EMS patient file  
 Hospital Patients.txt - raw hospital patient file  
 insert.py - de-identifies patients and inserts data into input tables  
