@@ -72,14 +72,12 @@ script and, on the server, run command:
   
    3. Direct the source to the views.sql script:     
       >`source /FULLPATH/views.sql;`
-    
-    
+      
+<br/>
 **USER USE:**
 
 6. View and query the results at: http://bfx.eng.jhu.edu/bkandim1/410.712_Advanced_Practical_Computer_Concepts_for_Bioinformatics/final/
-
 <br/><br/>  
-  
 **FILE NOTES:**  
 
 EMS Patients.txt - raw EMS patient file  
