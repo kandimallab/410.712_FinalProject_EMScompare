@@ -37,12 +37,12 @@ The program requires a stable internet connection. Any web browser can be used.
 
 The EMS patient raw data file must be in the following format:
 
-..."Name",DateOfBirth,DispatchDate,"EMS Impression"
+  `"Name",DateOfBirth,DispatchDate,"EMS Impression"`
 
 The hospital patient raw data file must be in the following format:
 
-..."Name",DateOfBirth,AdmitDate,"Reason For Visit","Diagnosis1 Code", "Diagnosis1",
-"Diagnosis2 Code","Diagnosis2","Diagnosis3 Code","Diagnosis3"
+  `"Name",DateOfBirth,AdmitDate,"Reason For Visit","Diagnosis1 Code", "Diagnosis1",
+"Diagnosis2 Code","Diagnosis2","Diagnosis3 Code","Diagnosis3"`
 
 
 **USAGE**
@@ -52,35 +52,35 @@ The hospital patient raw data file must be in the following format:
 1. Raw data files of the EMS Patients and Hospital must be uploaded to the
 server as source files
 
-..2. To de-identify EMS patients and create patient-event table, un-comment lines
+2. To de-identify EMS patients and create patient-event table, un-comment lines
 19, 23-25, and 30-31 of the insert.py script and, on the server, run command:
 
-...`python insert.py`..
+  `python insert.py`
 
-..3. To de-identify hospital patients and create patient-event table, un-comment
+3. To de-identify hospital patients and create patient-event table, un-comment
 lines 20, 23-25, and 33-35 of the insert.py script and, on the server, run
 command:
 
-...`python insert.py`..
+  `python insert.py`
 
-..4. To create crosswalk table, un-comment lines 18 and 27-28 of the insert.py
+4. To create crosswalk table, un-comment lines 18 and 27-28 of the insert.py
 script and, on the server, run command:
 
-...`python insert.py`..
+  `python insert.py`
 
-..5. To run the data through the program and upload to database
+5. To run the data through the program and upload to database
 
-...5A. Log into the MySQL server:..
+  5A. Log into the MySQL server:
 
-....`mysql -u USERNAME -h localhost -p`...
+    `mysql -u USERNAME -h localhost -p`
 
-...5B. Use the bkandim1 database:..
+  5B. Use the bkandim1 database:
 
-....`use bkandim1;`...
+    `use bkandim1;`
   
-...5C. Direct the source to the views.sql script:..
+  5C. Direct the source to the views.sql script:
 
-....`source /FULLPATH/views.sql;`...
+    `source /FULLPATH/views.sql;`
     
     
 **USER USE:**
