@@ -76,9 +76,9 @@ script and, on the server, run command:
     
 **USER USE:**
 
-6. View and query the results at: [http://bfx.eng.jhu.edu/bkandim1/410.712_Advanced_Practical_Computer_Concepts_for_Bioinformatics/final/]
-(http://bfx.eng.jhu.edu/bkandim1/410.712_Advanced_Practical_Computer_Concepts_for_Bioinformatics/final/)  
-  
+6. View and query the results at: http://bfx.eng.jhu.edu/bkandim1/410.712_Advanced_Practical_Computer_Concepts_for_Bioinformatics/final/
+
+<br/><br/>  
   
 **FILE NOTES:**  
 
