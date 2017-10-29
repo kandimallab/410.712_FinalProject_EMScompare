@@ -35,12 +35,10 @@ The recommended MySQL version is 5.1.73.
 
 The program requires a stable internet connection. Any web browser can be used.
 
-The EMS patient raw data file must be in the following format:
-
+The EMS patient raw data file must be in the following format:  
    >`"Name",DateOfBirth,DispatchDate,"EMS Impression"`
 
-The hospital patient raw data file must be in the following format:
-
+The hospital patient raw data file must be in the following format:  
    >`"Name",DateOfBirth,AdmitDate,"Reason For Visit","Diagnosis1 Code", "Diagnosis1", "Diagnosis2 Code","Diagnosis2","Diagnosis3 Code","Diagnosis3"`
 
 
@@ -79,26 +77,19 @@ script and, on the server, run command:
 **USER USE:**
 
 6. View and query the results at:
-http://bfx.eng.jhu.edu/bkandim1/410.712_Advanced_Practical_Computer_Concepts_for_Bioinformatics/final/  
-
-
-
+http://bfx.eng.jhu.edu/bkandim1/410.712_Advanced_Practical_Computer_Concepts_for_Bioinformatics/final/
+  
+  
+  
 FILE NOTES:
 
-EMS Patients.txt - raw EMS patient file
-
-Hospital Patients.txt - raw hospital patient file
-
-insert.py - de-identifies patients and inserts data into input tables
-
-tables.sql - defines structure of input tables
-
-views.sql - input table queries to create 8 views and 1 table for the program
-
-querydb.cgi - runs queries and returns results to the webpage
-
-query.sql - script to test queries
-
+EMS Patients.txt - raw EMS patient file  
+Hospital Patients.txt - raw hospital patient file  
+insert.py - de-identifies patients and inserts data into input tables  
+tables.sql - defines structure of input tables  
+views.sql - input table queries to create 8 views and 1 table for the program  
+querydb.cgi - runs queries and returns results to the webpage  
+query.sql - script to test queries  
 query.py - test script
 
 
