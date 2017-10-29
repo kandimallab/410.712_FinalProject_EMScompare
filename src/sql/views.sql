@@ -16,7 +16,7 @@ WHERE
 ems_patients.dispatch_date   < admit_date AND
 ems_patients.dispatch_date   > DATE(DATE_SUB(admit_date, INTERVAL 1 DAY)) AND
 hospital_patients.admit_date > dispatch_date AND
-hospital_patients.admit_date < DATE(DATE_ADD(dispatch_date, INTERVAL 2 DAY));
+hospital_patients.admit_date < DATE(DATE_ADD(dispatch_date, INTERVAL 1 DAY));
 
 
 DROP VIEW IF EXISTS patient_events;
