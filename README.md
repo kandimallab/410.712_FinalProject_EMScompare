@@ -72,7 +72,7 @@ script and, on the server, run command:
   
   5C. Direct the source to the views.sql script:
     source /FULLPATH/views.sql;
-
+    
     
 USER USE:
 6. View and query the results at:
@@ -84,7 +84,7 @@ EMS Patients.txt - raw EMS patient file
 Hospital Patients.txt - raw hospital patient file
 insert.py - de-identifies patients and inserts data into input tables
 tables.sql - defines structure of input tables
-views.sql - input table queries to create 8 views and 1 table for the program  
+views.sql - input table queries to create 8 views and 1 table for the program
 querydb.cgi - runs queries and returns results to the webpage
 query.sql - script to test queries
 query.py - test script
